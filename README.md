@@ -34,6 +34,8 @@ JNE A B C - If A and B are not equal, jump to C
 
 WAIT A - Waits Ams
 
+
+
 Actual Addresses:
 
 Serial: S1 - S32
@@ -51,6 +53,8 @@ Characters: K1 - K100
 Instruction IDs: V1 - V65535
 
 Numbers: 1 - 65535
+
+
 
 Specs:
 Screen: 512-color 256x256 screen
