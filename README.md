@@ -2,6 +2,8 @@
 
 V-CPU is a virtual hardware system with 16 instructions and a 16-bit CPU. Below are the specs for this machine.
 
+# Instructions
+
 HALT - Stops the current process
 
 INP S1 A - Takes input from serial binary signal and puts true/false result in register A
@@ -34,7 +36,7 @@ JNE A B C - If A and B are not equal, jump to C
 
 WAIT A - Waits Ams
 
-
+# Addressing
 
 Actual Addresses:
 
@@ -54,7 +56,7 @@ Instruction IDs: V1 - V65535
 
 Numbers: 1 - 65535
 
-
+# Specs
 
 Specs:
 Screen: 512-color 256x256 screen
