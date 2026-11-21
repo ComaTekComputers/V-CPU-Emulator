@@ -20,17 +20,30 @@ JNE A B C - If A and B are not equal, jump to C
 WAIT A - Waits Ams
 
 Actual Addresses:
+
 Serial: S1 - S32
+
 Color Values: C1 - C512
+
 MIDI Notes: M1 - M88 (Every note on a grand piano)
+
 RAM Addresses: R1 - R65535
+
 Registers: A1 - A16
+
 Characters: K1 - K100
+
 Instruction IDs: V1 - V65535
+
 Numbers: 1 - 65535
 
 Specs:
 Screen: 512-color 256x256 screen
+
 Cores: Every core executes processes seperatly, with seperate clocks, but share RAM and Display, and each core can handle 1 process at a time.
+
 System: 16-bit
+
 Sound: 88 note standard MIDI beeps
+
+Copyright 2026 ComaTek Computers
